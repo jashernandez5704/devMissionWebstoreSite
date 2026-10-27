@@ -1,0 +1,21 @@
+#backgroundImage {
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+}
+
+#cards-container {
+    position: absolute;
+    top: 65vh; /* place below backgroun image*/
+    margin-bottom: 5rem;
+}
+
+#cards-container .card-img {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  object-fit: cover;
+}

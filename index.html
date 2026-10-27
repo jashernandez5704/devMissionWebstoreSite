@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Store Page</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Styling -->
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar / header -->
+    <nav class="navbar lg:navbar-expand bg-1 fg-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" id="storeName">Store Page</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                data-bs-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavMenu" aria-labelledby="navbarNavMenuLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarNavMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                Menu link
+                            </button>
+                            <div class="menu">
+                                <a class="menu-item" href="#">Action</a>
+                                <a class="menu-item" href="#">Another action</a>
+                                <a class="menu-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
+        </div>
+    </nav>
+
+  <!-- background image -->
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQogZKb-T6BI-dJRKvEXik0uD8bapenlK3xYUqQU6wA&s=10"
+    id="backgroundImage">
+
+  <!-- search bar -->
+  <div class="container" id="searchContainer">
+    <div class="row">
+      <div class="form-field">
+        <input type="search" class="form-control" id="fieldText" placeholder="Search">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- cards -->
+  <div class="container-fluid" id="cards-container">
+    <div id="cards-container-inner" class="row g-4">
+      <a href="search.html" class="col col-12 col-md-6">
+        <div class="card theme-inverse">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWmwkYA1Cd0QDokZkak3zDojn7oEPccY0aV89bk8fWvA&s=10" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+          </div>
+      </div>
+      </a>
+      <a href="search.html" class="col col-12 col-md-6">
+        <div class="card theme-inverse">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrlhoZUPFN7jDh7IZB0v_zE_wIcwI7BEqWxffW8V86A&s=10" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+
+          </div>
+        </div>
+      </a>
+      <a href="search.html" class="col col-12 col-md-6">
+        <div class="card theme-inverse">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__0Rd6jOLbPgBKvP3nneRw10kxC78dkjI16olS3GlgQ&s=10" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+            
+          </div>
+        </div>
+      </a>
+      <a href="search.html" class="col col-12 col-md-6">
+        <div class="card theme-inverse">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRrBMW30m0h5-DGZCJSzamba4vQxbPbxDckNlpKDDpg&s=10" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h4 class="card-title">Card title</h4>
+            
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

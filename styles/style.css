@@ -1,0 +1,12 @@
+.btn-icon {
+    border: none;
+}
+
+#searchContainer {
+    margin-top: 2rem;
+}
+
+#storeName {
+    font-size: 2rem;
+    font-weight: bold;
+}
